@@ -10,5 +10,6 @@ $app = new Application('Lambo Console', 0.1);
 
 $app->add(new Laravel\Installer\Console\NewCommand);
 $app->add(new CreateCommand);
+$app->add(new CloneCommand);
 
 $app->run();
